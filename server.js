@@ -1,5 +1,4 @@
-const customExpress = require('./custom-express'),
-  app = customExpress(),
+const app = require('./custom-express'),
   port = 3000
 
 app.listen(3000, () => {

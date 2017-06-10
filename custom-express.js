@@ -1,13 +1,7 @@
-const express = require('express')
+const express = require('express'),
+  app = express()
+  require("./routes/produtos")(app)
 
-module.exports = () => {
-let app = express();
-  app.set('view engine', 'ejs')
+app.set('view engine', 'ejs')
 
-  app.get('/produtos', (req, res) => {
-    console.log('requisição chegou')
-    res.render('produtos/lista')
-  })
-
-  return app
-}
+module.exports = app
