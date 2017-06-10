@@ -1,0 +1,22 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "Projeto curso JS35",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo-lino/casadocodigo.git"
+  },
+  "author": "kadu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricardo-lino/casadocodigo/issues"
+  },
+  "homepage": "https://github.com/ricardo-lino/casadocodigo#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
