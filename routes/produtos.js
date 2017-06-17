@@ -1,4 +1,4 @@
-const connectionFactory = require('../infra/connectionFactory.js'),
+const connectionFactory = require('../infra/connectionFactory.js'),  
   ProdutoDao = require('../infra/ProdutoDao');
 
 module.exports = (app) => {
@@ -12,5 +12,13 @@ module.exports = (app) => {
     })
 
     connection.end()
+  })
+
+  app.get('produtos/form', (req, res) => {
+      res.render('produtos/form')
+  })
+
+  app.post('produtos/form', (req, res) => {
+        req.
   })
 }
