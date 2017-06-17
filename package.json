@@ -4,7 +4,9 @@
   "description": "Projeto curso JS35",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,13 @@
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-load": "^1.1.16",
+    "handlebars": "^4.0.10",
+    "hbs": "^4.0.1",
     "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
